@@ -27,7 +27,7 @@ jobs:
     - run : echo "${GITHUB_WORKSPACE}"   
     
     - name: Install dependencies
-      run: npm install --prefix "..\test_github"
+      run: npm install --prefix "../test_github"
 
     - name: Run the tests
       run: npm test
