@@ -30,7 +30,7 @@ jobs:
       run: npm install --prefix "${GITHUB_WORKSPACE}/test_github"
 
     - name: Run the tests
-      run: npm test
+      run: npm test:watch -- "${GITHUB_WORKSPACE}/test_github"
 
     - name: Build
-      run: npm run build
+      run: npm run build "${GITHUB_WORKSPACE}/test_github"
