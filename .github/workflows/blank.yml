@@ -2,7 +2,7 @@ on:
   workflow_dispatch:
     inputs:
       username: user13
-        description: Your GitHub username'
+        description: 'Your GitHub username'
         required: true
       reason:
         description: 'Why are you running this workflow manually?'
