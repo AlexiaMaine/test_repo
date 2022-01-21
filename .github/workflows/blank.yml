@@ -1,7 +1,7 @@
 on: 
   workflow_dispatch:
     inputs:
-      username: user13
+      username: AlexiMaine
         description: 'Your GitHub username'
         required: true
       reason:
